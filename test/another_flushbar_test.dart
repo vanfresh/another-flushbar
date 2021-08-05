@@ -24,7 +24,7 @@ void main() {
     expect(flushbar.leftBarIndicatorColor, null);
     expect(flushbar.boxShadows, null);
     expect(flushbar.backgroundGradient, null);
-    expect(flushbar.mainButton, null);
+    expect(flushbar.buildButton, null);
     expect(flushbar.borderRadius, null);
     expect(flushbar.borderWidth, 1.0);
     expect(flushbar.borderColor, null);

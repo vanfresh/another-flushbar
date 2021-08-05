@@ -65,7 +65,7 @@ class FlushbarHelper {
       title: title,
       message: message,
       duration: duration,
-      mainButton: button,
+      buildButton: button,
     );
   }
 
