@@ -654,7 +654,7 @@ class _FlushbarState<K extends Object?> extends State<Flushbar<K>>
         ),
         Padding(
           padding: EdgeInsets.only(right: buttonRightPadding),
-          child: _getMainActionButton(this as Flushbar),
+          child: _getMainActionButton(widget),
         ),
       ];
     } else {
@@ -695,7 +695,7 @@ class _FlushbarState<K extends Object?> extends State<Flushbar<K>>
         widget.mainButton != null
             ? Padding(
                 padding: EdgeInsets.only(right: buttonRightPadding),
-                child: _getMainActionButton(this as Flushbar),
+                child: _getMainActionButton(widget),
               )
             : _emptyWidget,
       ];
