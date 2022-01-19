@@ -1,3 +1,11 @@
+## 1.10.27 - 2021-12-09
+- merge updates
+## 1.10.26 - 2021-11-24
+- Update screenshot links
+## 1.10.25 - 2021-11-01
+- RTL text
+## 1.10.24 - 2021-07-6
+- Implemented endOffset parameter
 ## 1.10.23 - 2021-06-4
 - Prevents hiding flushbar when user clicks the back button.
 ## 1.10.22 - 2021-05-14

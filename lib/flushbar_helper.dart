@@ -58,14 +58,14 @@ class FlushbarHelper {
   /// Get a flushbar that can receive a user action through a button.
   static Flushbar createAction(
       {required String message,
-      required Widget button,
+      required Widget? Function(Flushbar)? button,
       String? title,
       Duration duration = const Duration(seconds: 3)}) {
     return Flushbar(
       title: title,
       message: message,
       duration: duration,
-      buildButton: button,
+      mainButton: button,
     );
   }
 

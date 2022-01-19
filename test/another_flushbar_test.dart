@@ -13,7 +13,7 @@ void main() {
     expect(flushbar.title, null);
     expect(flushbar.message, 'This is a test');
     expect(flushbar.duration, null);
-    expect(flushbar.backgroundColor, Color(0xFF303030));
+    expect(flushbar.backgroundColor, const Color(0xFF303030));
     expect(flushbar.flushbarPosition, FlushbarPosition.BOTTOM);
     expect(flushbar.flushbarStyle, FlushbarStyle.FLOATING);
     expect(flushbar.forwardAnimationCurve, Curves.easeOutCirc);
@@ -24,7 +24,7 @@ void main() {
     expect(flushbar.leftBarIndicatorColor, null);
     expect(flushbar.boxShadows, null);
     expect(flushbar.backgroundGradient, null);
-    expect(flushbar.buildButton, null);
+    expect(flushbar.mainButton, null);
     expect(flushbar.borderRadius, null);
     expect(flushbar.borderWidth, 1.0);
     expect(flushbar.borderColor, null);
